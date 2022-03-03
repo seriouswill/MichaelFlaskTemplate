@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% block title %}{% endblock %}
+{% block content %}
+
+<h1>This is the main page</h1>
+
+{% if name == "Will!" %}
+<p>Hi, Will</p>
+{% else %}
+<p>Who the hell are you?</p>
+{% endif %}
+
+<p>Hi my name is {{name}} !!!</p>
+
+{% endblock %}
